@@ -8,7 +8,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>@hasSection('title') @yield('title') - {{ config('app.name', 'Starter') }} @else {{ config('app.name', 'Starter') }} @endif</title>
+        @include('layouts.partials.meta_tags')
 
         <!-- Scripts -->
         <script src="{{ mix('/js/app.js') }}" defer></script>
