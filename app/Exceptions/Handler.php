@@ -34,7 +34,7 @@ class Handler extends ExceptionHandler
      */
     public function report(Exception $exception)
     {
-        if ($this->shouldReport($exception)) {
+        if (!app()->isLocal() && $this->shouldReport($exception)) {
             app('sentry')->captureException($exception);
         }
 
