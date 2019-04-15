@@ -1,10 +1,10 @@
 {
-    "name": "laravel/laravel",
+    "name": "pawelmysior/starter",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "The starter project for Laravel applications.",
     "keywords": [
-        "framework",
-        "laravel"
+        "laravel",
+        "starter"
     ],
     "license": "MIT",
     "require": {
