@@ -43,9 +43,19 @@ return [
 
     'disks' => [
 
+        'backup' => [
+            'driver' => 'local',
+            'root' => storage_path('app/backup'),
+        ],
+
         'local' => [
             'driver' => 'local',
             'root' => storage_path('app'),
+        ],
+
+        'dropbox' => [
+            'driver' => 'dropbox',
+            'token' => env('DROPBOX_TOKEN'),
         ],
 
         'public' => [
