@@ -7,3 +7,7 @@ mix
     require('tailwindcss')('./resources/css/tailwind.config.js'),
   ])
   .purgeCss();
+
+if (mix.inProduction()) {
+  mix.version();
+}
