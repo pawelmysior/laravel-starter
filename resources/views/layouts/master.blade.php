@@ -22,6 +22,8 @@
           gtag('config', 'UA-00000000-0');
         </script>
 
+        @include('layouts.partials.favicon')
+
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
