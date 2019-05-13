@@ -15,11 +15,11 @@
 
         <div class="xl:block w-full xl:w-auto flex-grow px-4 xl:px-0" :class="{ hidden: !hidden }" v-cloak>
             <div class="flex flex-col xl:flex-row">
-                <a href="#" class="hover:underline my-2 xl:my-6 xl:mr-8">
+                <a href="#" class="hover:underline my-2 xl:my-6 xl:mr-8 {{ is_active_route('about', 'underline') }}">
                     About
                 </a>
 
-                <a href="#" class="hover:underline my-2 xl:my-6">
+                <a href="#" class="hover:underline my-2 xl:my-6 {{ is_active_route('contact', 'underline') }}">
                     Contact
                 </a>
             </div>
