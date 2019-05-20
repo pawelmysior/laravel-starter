@@ -21,7 +21,7 @@ Inspired in part by [michaeldyrynda/founder](https://github.com/michaeldyrynda/f
 Clone the repository:
 
 ```bash
-git clone https://github.com/pawelmysior/starter.git
+git clone https://github.com/pawelmysior/laravel-starter.git
 ```
 
 Install the composer dependencies:
