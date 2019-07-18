@@ -8,6 +8,11 @@ mix
   ])
   .purgeCss();
 
+mix.browserSync({
+  proxy: 'laravel-starter.test',
+  notify: false,
+});
+
 if (mix.inProduction()) {
   mix.version();
 }
