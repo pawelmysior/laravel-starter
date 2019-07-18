@@ -1,7 +1,7 @@
 <renderless-toggler>
     <header class="flex items-center justify-between flex-wrap bg-gray-600 text-gray-100 xl:px-8" slot-scope="{ hidden, toggle }">
         <a href="/" class="hover:underline block my-6 mr-2 xl:mr-8 pl-4 xl:pl-0">
-            {{ config('app.name', 'Starter') }}
+            {{ config('app.name', 'Laravel Starter') }}
         </a>
 
         <button class="flex xl:hidden items-center px-4 py-4 appearance-none focus:outline-none" @click="toggle">

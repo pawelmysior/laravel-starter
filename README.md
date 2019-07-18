@@ -1,4 +1,4 @@
-# Starter
+# Laravel Starter
 
 The starter project for Laravel applications. It is a base Laravel installation with some additional packages and basic setup. It comes with:
 

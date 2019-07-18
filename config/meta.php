@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'title' => env('APP_NAME', 'Starter'),
+    'title' => env('APP_NAME', 'Laravel Starter'),
     'description' => '',
 ];
