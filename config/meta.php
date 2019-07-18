@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'title' => 'Starter',
-    'description' => 'Lorem ipsum dolor sit amet',
+    'title' => env('APP_NAME', 'Starter'),
+    'description' => '',
 ];
