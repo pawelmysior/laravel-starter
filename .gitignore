@@ -10,5 +10,4 @@
 !.env.example
 .php_cs.cache
 .phpunit.result.cache
-composer.lock
 package-lock.json
