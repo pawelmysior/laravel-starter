@@ -60,7 +60,7 @@ npm run dev
 2. Set the mail configuration in the `.env` file.
 3. Set the Dropbox token for Dropbox backups in the `.env` file.
 4. Set the Sentry DSN in the `.env` file.
-5. Set the Google Analytics ID in the `resources/views/layouts/master.blade.php` file.
+5. Set the Google Analytics ID in the `.env` file.
 
 ## License
 

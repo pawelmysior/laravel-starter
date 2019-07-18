@@ -14,13 +14,13 @@
         <script src="{{ mix('/js/app.js') }}" defer></script>
         @if (app()->environment('production'))
             <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-00000000-0"></script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('services.google_analytics.id') }}"></script>
             <script>
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', 'UA-00000000-0');
+              gtag('config', '{{ config('services.google_analytics.id') }}');
             </script>
         @endif
 
