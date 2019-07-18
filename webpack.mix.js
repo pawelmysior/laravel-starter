@@ -6,6 +6,7 @@ mix
   .postCss('resources/css/app.css', 'public/css', [
     require('postcss-import'),
     require('tailwindcss')('./resources/css/tailwind.config.js'),
+    require('postcss-nested'),
   ])
   .purgeCss();
 
