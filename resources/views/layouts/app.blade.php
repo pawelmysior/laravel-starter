@@ -6,6 +6,12 @@
 
         <div class="flex-grow py-4">
             <div class="container mx-auto px-4 xl:px-8">
+                @if (session('status'))
+                    <div class="alert alert-success mb-4" role="alert">
+                        {{ session('status') }}
+                    </div>
+                @endif
+
                 @yield('content')
             </div>
         </div>
