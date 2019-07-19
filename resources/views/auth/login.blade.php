@@ -29,7 +29,7 @@
 
             <input class="input @error('password') input-with-error @enderror"
                    id="password" type="password" name="password"
-                   autocomplete="current-password" autofocus>
+                   autocomplete="current-password">
 
             @error('password')
                 <div class="error mt-2" role="alert">
