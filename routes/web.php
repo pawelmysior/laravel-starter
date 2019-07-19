@@ -15,4 +15,4 @@ Route::view('/', 'home.index');
 
 Route::view('/privacy-policy', 'privacy-policy')->name('privacy-policy');
 
-Auth::routes();
+Auth::routes(['verify' => true]);
