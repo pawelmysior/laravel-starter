@@ -1,0 +1,39 @@
+.input {
+  @apply appearance-none w-full p-2 bg-white rounded border border-gray-400;
+}
+
+.input:focus {
+  @apply outline-none shadow-outline;
+}
+
+.input-with-error {
+  @apply border-red-500;
+}
+
+.label {
+  @apply block text-sm text-gray-600;
+}
+
+.error {
+  @apply text-sm text-red-500;
+}
+
+.checkbox-label {
+  @apply flex items-center relative select-none;
+}
+
+input[type="checkbox"] {
+  @apply absolute opacity-0 pointer-events-none;
+}
+
+.checkbox {
+  @apply h-4 w-4 bg-white rounded border border-gray-400;
+}
+
+input[type="checkbox"]:checked + .checkbox {
+  @apply bg-gray-600;
+}
+
+input[type="checkbox"]:focus + .checkbox {
+  @apply outline-none shadow-outline;
+}

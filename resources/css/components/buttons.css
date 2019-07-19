@@ -1,0 +1,16 @@
+.btn:focus {
+  @apply outline-none shadow-outline;
+}
+
+.btn {
+  @apply px-6 py-2 rounded;
+}
+
+.btn-gray {
+  @apply bg-gray-600 text-gray-100;
+}
+
+.btn-gray:hover {
+  @apply bg-gray-700;
+}
+
