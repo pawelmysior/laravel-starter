@@ -8,7 +8,10 @@ mix
     require('tailwindcss')('./resources/css/tailwind.config.js'),
     require('postcss-nested'),
   ])
-  .purgeCss();
+  .purgeCss({
+    only: ['css/app.css'],
+    whitelistPatternsChildren: [/content/],
+  });
 
 mix.browserSync({
   proxy: 'laravel-starter.test',
