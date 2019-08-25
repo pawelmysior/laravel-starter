@@ -57,11 +57,10 @@ npm run dev
 ## Configuration
 
 1. Set the database configuration in the `.env` file.
-2. Set the mail configuration in the `.env` file.
-3. Set the Dropbox token for Dropbox backups in the `.env` file.
-4. Set the Sentry DSN in the `.env` file.
-5. Set the Google Analytics ID in the `.env` file.
-6. Set the timezone and locale in the `config/app.php` file.
+2. Set the Dropbox token for Dropbox backups in the `.env` file.
+3. Set the Sentry DSN in the `.env` file.
+4. Set the Google Analytics ID in the `.env` file.
+5. Set the timezone and locale in the `config/app.php` file.
 
 ## License
 
