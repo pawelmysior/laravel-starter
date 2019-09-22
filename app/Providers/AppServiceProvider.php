@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Laravelista\Ekko\Frameworks\Laravel\Facade as Ekko;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -28,6 +29,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        Ekko::enableGlobalHelpers();
     }
 }
