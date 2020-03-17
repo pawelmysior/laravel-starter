@@ -81,7 +81,8 @@ return [
     */
 
     'failed' => [
-        'database' => env('QUEUE_FAILED_DRIVER', 'mysql'),
+        'driver' => env('QUEUE_FAILED_DRIVER', 'database'),
+        'database' => env('DB_CONNECTION', 'mysql'),
         'table' => 'failed_jobs',
     ],
 
